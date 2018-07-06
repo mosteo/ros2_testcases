@@ -1,0 +1,14 @@
+# - Config file for the fail package
+# It defines the following variables
+#  fail_INCLUDE_DIRS - include directories for FooBar
+#  fail_LIBRARIES    - libraries to link against
+#  fail_EXECUTABLE   - the bar executable
+
+set(fail_INCLUDE_DIRS "@CONF_INCLUDE_DIRS@")
+
+# Our library dependencies (contains definitions for IMPORTED targets)
+include("${fail_DIR}/export_fail.cmake")
+
+# These are IMPORTED targets created by failTargets.cmake
+
+
