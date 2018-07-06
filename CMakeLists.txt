@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(fail)
+project(fail_example)
 
 set(fail_MAJOR_VERSION 0)
 set(fail_MINOR_VERSION 0)
